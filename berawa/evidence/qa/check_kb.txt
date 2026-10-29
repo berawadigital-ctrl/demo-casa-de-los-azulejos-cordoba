@@ -1,0 +1,3 @@
+entradas 14 fallos de citas/cifras 0
+knowledge.json coincide con knowledge_casa_de_los_azulejos_cordoba.py
+REGLA DE PRECIOS: CUMPLE
