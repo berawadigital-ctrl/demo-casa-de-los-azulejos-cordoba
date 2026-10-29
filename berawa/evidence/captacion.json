@@ -1,0 +1,30 @@
+{
+ "schema": "berawa-captacion/1",
+ "negocio": "casa-de-los-azulejos-cordoba",
+ "maps": {
+  "fecha": "2026-10-29T04:24:02+01:00",
+  "estado": "LEIDA",
+  "ficha": "Hotel Casa de los azulejos",
+  "nota": 4.8,
+  "coincide": {
+   "tel": true,
+   "web": true
+  },
+  "url": "https://www.google.com/maps/place/Hotel+Casa+de+los+azulejos/@37.8838464,-4.7758131,17z/data=!3m1!5s0xd6cdf7db7791cb1:0x69b2da5f39592acc!4m9!3m8!1s0xd6cdf7db745783f:0xb062911fab852447!5m2!4m1!1i2!8m2!3d37.8838464!4d-4.7758131!16s%2Fg%2F1tjyvy_w",
+  "herramienta": "factory/webfactory/maps_rating.py"
+ },
+ "web_filtro": {
+  "fecha": "2026-10-29T04:24:02+01:00",
+  "veredicto": "MEJORABLE",
+  "informe_velocidad": "LCP > 4 s",
+  "herramienta": "filtro_mala_web.py (Lighthouse movil, mediana de 3 pasadas)"
+ },
+ "titular": {
+  "razon_social": "PROYECTO LATINO SIGLO XXI S.L.",
+  "cif": "B14626717",
+  "fuente": "https://onebusiness.place/es/datos/hotel-cordoba-proyecto-latino-siglo-xxi-s-l.html",
+  "persona_juridica": true,
+  "cadena": false,
+  "nota": "Titular no publicado en el aviso legal de la web; razón social tomada de registro mercantil público (onebusiness.place) y LinkedIn; sociedad con un solo hotel (4 empleados); no cadena ni persona física."
+ }
+}
