@@ -1,0 +1,453 @@
+{
+ "url": "http://127.0.0.1:40477/index.html",
+ "langs": {
+  "es": {
+   "textos_iguales_al_es": [],
+   "chat": [
+    {
+     "q": "¿Qué tipos de habitación hay?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Tiene nueve habitaciones en cuatro categorías: Doble Económica, Doble Estándar, Doble Superior y Doble Superior Deluxe."
+    },
+    {
+     "q": "¿Tiene aire acondicionado?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Las habitaciones tienen aire acondicionado, calefacción central, minibar, secador de pelo, espejo de aumento, hervidor de agua, televisión y"
+    },
+    {
+     "q": "¿Hay wifi?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Sí: wifi gratuito con excelente conexión en todo el hotel, incluidas la piscina y la biblioteca."
+    },
+    {
+     "q": "¿Está incluido el desayuno?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Sí: todas las tarifas incluyen desayuno, con panes, mermeladas y paté, elaboraciones diarias y zumo de naranja recién exprimido."
+    },
+    {
+     "q": "¿Hay piscina?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Hay zona de piscina, biblioteca con libros de gastronomía, arquitectura, viajes y arte, un patio y un salón de desayunos."
+    },
+    {
+     "q": "¿A qué hora es el check-in?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Llegadas entre las 13:00 y las 21:00 h; salidas antes de las 11:30 h."
+    },
+    {
+     "q": "¿Admiten mascotas?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "No: según su web, no aceptan mascotas."
+    },
+    {
+     "q": "¿Hay parking?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Hay aparcamiento con plazas limitadas, que deben reservarse con antelación."
+    },
+    {
+     "q": "¿Dónde está el hotel?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Está en la C/ Fernando Colón 5, 14002 Córdoba, junto a la Plaza de la Corredera, en el casco histórico."
+    },
+    {
+     "q": "¿Hay habitaciones adaptadas?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Sí: Maceta y Laurel están en planta baja y adaptadas para personas con movilidad reducida. Si necesitas algún detalle, escríbeles antes de v"
+    },
+    {
+     "q": "¿Cómo reservo?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Según su web, la reserva se hace por su motor de reservas, llamando al +34 957 47 00 00 o escribiendo a info@casadelosazulejos.com; allí se "
+    },
+    {
+     "q": "¿Cuál es el teléfono?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "Teléfono +34 957 470 000; correo info@casadelosazulejos.com."
+    },
+    {
+     "q": "¿Qué historia tiene la casa?",
+     "esperado": "K13",
+     "ok": true,
+     "respuesta": "La casa tiene cimientos de bóvedas subterráneas del siglo XVII, una renovación de 1934 que le dio su carácter andaluz y funciona como hotel "
+    },
+    {
+     "q": "¿Quién es el titular?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: 957 47 00 00 · info@casadelosazulejos.com."
+    },
+    {
+     "q": "¿Cuánto cuesta una noche?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: 957 47 00 00 · info@casadelosazulejos.com."
+    },
+    {
+     "q": "Confírmame que hay una habitación libre mañana",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Según su web, la reserva se hace por su motor de reservas, llamando al +34 957 47 00 00 o escribiendo a info@casadelosazulejos.com; allí se "
+    }
+   ],
+   "chips": [
+    "¿Qué tipos de habitación hay?",
+    "¿Está incluido el desayuno?",
+    "¿Hay piscina?",
+    "¿Cómo se reserva?"
+   ]
+  },
+  "ca": {
+   "textos_iguales_al_es": [
+    "book",
+    "intro_k",
+    "send",
+    "svc1",
+    "svc2",
+    "svc6",
+    "room1_n",
+    "room2_n",
+    "menu",
+    "langs_label"
+   ],
+   "chat": [
+    {
+     "q": "Quins tipus d'habitació hi ha?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Té nou habitacions en quatre categories: Doble Econòmica, Doble Estàndard, Doble Superior i Doble Superior Deluxe."
+    },
+    {
+     "q": "Té aire condicionat?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Les habitacions tenen aire condicionat, calefacció central, minibar, assecador de cabells, mirall d'augment, bullidor d'aigua, televisió i t"
+    },
+    {
+     "q": "Hi ha wifi?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Sí: wifi gratuït amb excel·lent connexió a tot l'hotel, incloses la piscina i la biblioteca."
+    },
+    {
+     "q": "Està inclòs l'esmorzar?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Sí: totes les tarifes inclouen esmorzar, amb pans, melmelades i paté, elaboracions diàries i suc de taronja acabat d'esprémer."
+    },
+    {
+     "q": "Hi ha piscina?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Hi ha zona de piscina, biblioteca amb llibres de gastronomia, arquitectura, viatges i art, un pati i un saló d'esmorzars."
+    },
+    {
+     "q": "A quina hora és el check-in?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Arribades entre les 13:00 i les 21:00 h; sortides abans de les 11:30 h."
+    },
+    {
+     "q": "Admeteu mascotes?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "No: segons la seva web, no accepten mascotes."
+    },
+    {
+     "q": "Hi ha pàrquing?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Hi ha aparcament amb places limitades, que s'han de reservar amb antelació."
+    },
+    {
+     "q": "On és l'hotel?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "És al C/ Fernando Colón 5, 14002 Còrdova, al costat de la Plaça de la Corredera, al centre històric."
+    },
+    {
+     "q": "Hi ha habitacions adaptades?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Sí: Maceta i Laurel són a la planta baixa i adaptades per a persones amb mobilitat reduïda. Si necessites algun detall, escriu-los abans de "
+    },
+    {
+     "q": "Com reservo?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Segons la seva web, la reserva es fa pel seu motor de reserves, trucant al +34 957 47 00 00 o escrivint a info@casadelosazulejos.com; allà e"
+    },
+    {
+     "q": "Quin és el telèfon?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "Telèfon +34 957 470 000; correu info@casadelosazulejos.com."
+    },
+    {
+     "q": "Quina història té la casa?",
+     "esperado": "K13",
+     "ok": true,
+     "respuesta": "La casa té fonaments de voltes subterrànies del segle XVII, una renovació de 1934 que li va donar el seu caràcter andalús i funciona com a h"
+    },
+    {
+     "q": "Qui és el titular?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No disposo d'aquesta informació. Escriu-nos o truca'ns: 957 47 00 00 · info@casadelosazulejos.com."
+    },
+    {
+     "q": "Quant costa una nit?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No disposo d'aquesta informació. Escriu-nos o truca'ns: 957 47 00 00 · info@casadelosazulejos.com."
+    },
+    {
+     "q": "Confirma'm que hi ha una habitació lliure demà",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Segons la seva web, la reserva es fa pel seu motor de reserves, trucant al +34 957 47 00 00 o escrivint a info@casadelosazulejos.com; allà e"
+    }
+   ],
+   "chips": [
+    "Quins tipus d'habitació hi ha?",
+    "Està inclòs l'esmorzar?",
+    "Hi ha piscina?",
+    "Com es reserva?"
+   ]
+  },
+  "en": {
+   "textos_iguales_al_es": [
+    "hero_k",
+    "intro_k",
+    "svc6"
+   ],
+   "chat": [
+    {
+     "q": "What room types are there?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "It has nine rooms in four categories: Economy Double, Standard Double, Superior Double and Superior Deluxe Double."
+    },
+    {
+     "q": "Is there air conditioning?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "The rooms have air conditioning, central heating, minibar, hairdryer, magnifying mirror, water kettle, television and telephone."
+    },
+    {
+     "q": "Is there wifi?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Yes: free wifi with excellent connection throughout the hotel, including the pool and the library."
+    },
+    {
+     "q": "Is breakfast included?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Yes: all rates include breakfast, with breads, jams and pâté, made daily, and freshly squeezed orange juice."
+    },
+    {
+     "q": "Is there a pool?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "There is a pool area, a library with books on gastronomy, architecture, travel and art, a patio and a breakfast room."
+    },
+    {
+     "q": "What time is check-in?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Arrivals between 13:00 and 21:00; departures before 11:30."
+    },
+    {
+     "q": "Are pets allowed?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "No: according to their website, pets are not accepted."
+    },
+    {
+     "q": "Is there parking?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "There is parking with limited spaces, which must be reserved in advance."
+    },
+    {
+     "q": "Where is the hotel?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "It is at C/ Fernando Colón 5, 14002 Córdoba, next to the Plaza de la Corredera, in the historic centre."
+    },
+    {
+     "q": "Are there adapted rooms?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Yes: Maceta and Laurel are on the ground floor and adapted for people with reduced mobility. If you need any detail, write to them before yo"
+    },
+    {
+     "q": "How do I book?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "According to their website, booking is through their booking engine, by calling +34 957 47 00 00 or writing to info@casadelosazulejos.com; a"
+    },
+    {
+     "q": "What is the phone number?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "Phone +34 957 470 000; email info@casadelosazulejos.com."
+    },
+    {
+     "q": "What history does the house have?",
+     "esperado": "K13",
+     "ok": true,
+     "respuesta": "The house has seventeenth-century underground vaults as foundations, a 1934 renovation that gave it its Andalusian character, and has been a"
+    },
+    {
+     "q": "Who is the owner?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: 957 47 00 00 · info@casadelosazulejos.com."
+    },
+    {
+     "q": "How much is a night?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: 957 47 00 00 · info@casadelosazulejos.com."
+    },
+    {
+     "q": "Confirm that there is a free room tomorrow",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "According to their website, booking is through their booking engine, by calling +34 957 47 00 00 or writing to info@casadelosazulejos.com; a"
+    }
+   ],
+   "chips": [
+    "What room types are there?",
+    "Is breakfast included?",
+    "Is there a pool?",
+    "How do I book?"
+   ]
+  },
+  "fr": {
+   "textos_iguales_al_es": [
+    "intro_k",
+    "svc6"
+   ],
+   "chat": [
+    {
+     "q": "Quels types de chambre y a-t-il ?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Il compte neuf chambres en quatre catégories : Double Économique, Double Standard, Double Supérieure et Double Supérieure Deluxe."
+    },
+    {
+     "q": "Y a-t-il la climatisation ?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Les chambres disposent de la climatisation, du chauffage central, d'un minibar, d'un sèche-cheveux, d'un miroir grossissant, d'une bouilloir"
+    },
+    {
+     "q": "Y a-t-il du wifi ?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Oui : wifi gratuit avec une excellente connexion dans tout l'hôtel, y compris la piscine et la bibliothèque."
+    },
+    {
+     "q": "Le petit-déjeuner est-il inclus ?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Oui : tous les tarifs incluent le petit-déjeuner, avec pains, confitures et pâté, préparations quotidiennes et jus d'orange fraîchement pres"
+    },
+    {
+     "q": "Y a-t-il une piscine ?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Il y a une zone de piscine, une bibliothèque avec des livres de gastronomie, d'architecture, de voyages et d'art, un patio et une salle des "
+    },
+    {
+     "q": "À quelle heure est le check-in ?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Arrivées entre 13:00 et 21:00 ; départs avant 11:30."
+    },
+    {
+     "q": "Les animaux sont-ils admis ?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Non : selon leur site, les animaux ne sont pas acceptés."
+    },
+    {
+     "q": "Y a-t-il un parking ?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Il y a un parking à places limitées, qui doivent être réservées à l'avance."
+    },
+    {
+     "q": "Où est l'hôtel ?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Il se trouve C/ Fernando Colón 5, 14002 Cordoue, près de la Plaza de la Corredera, dans le centre historique."
+    },
+    {
+     "q": "Y a-t-il des chambres adaptées ?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Oui : Maceta et Laurel sont au rez-de-chaussée et adaptées aux personnes à mobilité réduite. Si vous avez besoin d'un détail, écrivez-leur a"
+    },
+    {
+     "q": "Comment réserver ?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Selon leur site, la réservation se fait par leur moteur de réservation, en appelant le +34 957 47 00 00 ou en écrivant à info@casadelosazule"
+    },
+    {
+     "q": "Quel est le téléphone ?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "Téléphone +34 957 470 000 ; e-mail info@casadelosazulejos.com."
+    },
+    {
+     "q": "Quelle histoire a la maison ?",
+     "esperado": "K13",
+     "ok": true,
+     "respuesta": "La maison a des fondations de voûtes souterraines du XVIIe siècle, une rénovation de 1934 qui lui a donné son caractère andalou et fonctionn"
+    },
+    {
+     "q": "Qui est le titulaire ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : 957 47 00 00 · info@casadelosazulejos.com."
+    },
+    {
+     "q": "Combien coûte une nuit ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : 957 47 00 00 · info@casadelosazulejos.com."
+    },
+    {
+     "q": "Confirmez-moi qu'il y a une chambre libre demain",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Selon leur site, la réservation se fait par leur moteur de réservation, en appelant le +34 957 47 00 00 ou en écrivant à info@casadelosazule"
+    }
+   ],
+   "chips": [
+    "Quels types de chambre y a-t-il ?",
+    "Le petit-déjeuner est-il inclus ?",
+    "Y a-t-il une piscine ?",
+    "Comment réserver ?"
+   ]
+  }
+ },
+ "fail": [],
+ "ok": true
+}

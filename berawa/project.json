@@ -1,0 +1,63 @@
+{
+ "schema": "berawa-project/1",
+ "slug": "demo-casa-de-los-azulejos-cordoba",
+ "template_version": "webfactory-2026.10.28+modelo-cazorla-6cfa67d",
+ "created_at": "2026-10-29T04:30:00+01:00",
+ "updated_at": "2026-10-29T04:32:00+01:00",
+ "business": {
+  "name": "Casa de los Azulejos Hotel Boutique",
+  "legal_name": "Proyecto Latino Siglo XXI S.L.",
+  "registry_ids": [
+   "CIF B14626717"
+  ],
+  "url": "https://casadelosazulejos.com/",
+  "domain": "casadelosazulejos.com",
+  "municipality": "Córdoba",
+  "province": "Córdoba",
+  "address": "C/ Fernando Colón 5 · 14002 Córdoba",
+  "phones": [
+   "957 47 00 00"
+  ],
+  "emails": [
+   "info@casadelosazulejos.com"
+  ],
+  "sector": "hotel boutique con patio andaluz"
+ },
+ "rating": {
+  "value": 4.8,
+  "source": "Google Maps (maps_rating.py, ficha comprobada por telefono, web)",
+  "url": "https://www.google.com/maps/place/Hotel+Casa+de+los+azulejos/@37.8838464,-4.7758131,17z/data=!3m1!5s0xd6cdf7db7791cb1:0x69b2da5f39592acc!4m9!3m8!1s0xd6cdf7db745783f:0xb062911fab852447!5m2!4m1!1i2!8m2!3d37.8838464!4d-4.7758131!16s%2Fg%2F1tjyvy_w",
+  "date": "2026-10-29T04:24:02+01:00",
+  "threshold": 4.0
+ },
+ "languages": [
+  "es",
+  "ca",
+  "en",
+  "fr"
+ ],
+ "noindex": true,
+ "notice_es": "Propuesta de rediseño independiente, no oficial",
+ "chatbot": {
+  "api": false,
+  "kind": "base local de respuestas verificadas",
+  "knowledge": "berawa/knowledge.json",
+  "fallback_es": "No dispongo de esa información"
+ },
+ "book": {
+  "mode": "mail",
+  "email": "info@casadelosazulejos.com",
+  "note": "La web del negocio reserva por su motor de reservas, telefono o correo; la demo usa solo contacto real (correo y telefono)."
+ },
+ "audit_original": {
+  "url": "https://casadelosazulejos.com/",
+  "date": "2026-10-29T04:30:00+01:00",
+  "veredicto": "LCP > 4 s",
+  "tool": "filtro_mala_web.py (Lighthouse movil, mediana de 3 pasadas)"
+ },
+ "first_of_type": "no aplica: hotel boutique urbano con precedente en demos de esta tanda",
+ "codex": {
+  "audits": []
+ },
+ "changes_log": "ver CORRECCIONES.md (si existe) y berawa/V1.0-CAMBIOS.md"
+}
