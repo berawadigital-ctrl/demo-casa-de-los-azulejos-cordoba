@@ -1,0 +1,44 @@
+{
+ "schema": "berawa-sources/1",
+ "site": "https://casadelosazulejos.com/",
+ "read_at": "2026-10-29T04:26:00+01:00",
+ "method": "Texto visible de cada pagina leido de la web publica del negocio en la fecha indicada (fetch_sources.py) y guardado en berawa/evidence/source-text.json; las citas del chatbot se comprueban contra ese texto con check_kb.py.",
+ "pages": [
+  {
+   "url": "https://casadelosazulejos.com/",
+   "sha256": "734cf1c5c751dd6b4e7a514147bbb420b65c52747edfc39932c510eb2cb64359",
+   "chars": 5903
+  },
+  {
+   "url": "https://casadelosazulejos.com/conocenos/",
+   "sha256": "afb76a5f1b1f69f993aa07ae09fbc6f5a6e0268b9b5941fb545f5b7a55129ee8",
+   "chars": 4287
+  },
+  {
+   "url": "https://casadelosazulejos.com/contacto/",
+   "sha256": "0e46c6a60c45afb782af892496e7b1d59c864b7d5bb3bf62ff486ca843660d0a",
+   "chars": 2015
+  },
+  {
+   "url": "https://casadelosazulejos.com/habitaciones/",
+   "sha256": "82ca3390fde1b98eb72530016a386c6846b06804d4fe4960598c4cf2e9254eb6",
+   "chars": 3266
+  },
+  {
+   "url": "https://casadelosazulejos.com/habitaciones/habitacion-doble-economica/",
+   "sha256": "7a2427b82780b9373d530210e12b21b9ce7e10719fc67379c8b7ab106898e3d9",
+   "chars": 2955
+  }
+ ],
+ "other_pages_read": [
+  "https://casadelosazulejos.com/bloger/",
+  "https://casadelosazulejos.com/habitaciones/habitacion-doble-ceiba/",
+  "https://casadelosazulejos.com/habitaciones/habitacion-doble-deluxe/",
+  "https://casadelosazulejos.com/habitaciones/habitacion-doble-estandar/",
+  "https://casadelosazulejos.com/habitaciones/habitacion-doble-laurel/",
+  "https://casadelosazulejos.com/habitaciones/habitacion-doble-maguey/",
+  "https://casadelosazulejos.com/habitaciones/habitacion-doble-nopal/",
+  "https://casadelosazulejos.com/habitaciones/habitacion-doble-sabila/",
+  "https://casadelosazulejos.com/habitaciones/habitacion-doble-superior/"
+ ]
+}
